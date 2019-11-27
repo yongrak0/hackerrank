@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="DiagonalDifference.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Triplets.cpp" />
   </ItemGroup>

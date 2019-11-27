@@ -5,6 +5,7 @@
 int main()
 {
 	//simpleArraySumMain();
-	TripletsMain();
+	//TripletsMain();
+	DiagonalDifferenceMain();
 	return 0;
 }

@@ -3,9 +3,9 @@
 
 using namespace std;
 
-string ltrim(const string&);
-string rtrim(const string&);
-vector<string> split(const string&);
+static string ltrim(const string&);
+static string rtrim(const string&);
+static vector<string> split(const string&);
 
 // Complete the compareTriplets function below.
 vector<int> compareTriplets(vector<int> a, vector<int> b) {
