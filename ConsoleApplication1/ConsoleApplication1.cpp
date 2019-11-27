@@ -1,7 +1,7 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 
 #include <bits/stdc++.h>
-
+#include "ConsoleApplication1.h"
 
 using namespace std;
 
@@ -26,7 +26,7 @@ int simpleArraySum(vector<int> ar) {
 
 }
 
-int main()
+int simpleArraySumMain()
 {
 	//ofstream fout(getenv("OUTPUT_PATH"));
 	//auto res = getenv("OUTPUT_PATH");
