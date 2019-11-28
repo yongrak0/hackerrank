@@ -30,12 +30,21 @@
     <ClCompile Include="DiagonalDifference.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mini_Max_Sum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bits\stdc++.h">
       <Filter>소스 파일\bits</Filter>
     </ClInclude>
     <ClInclude Include="ConsoleApplication1.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

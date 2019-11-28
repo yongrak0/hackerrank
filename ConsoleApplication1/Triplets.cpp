@@ -1,11 +1,9 @@
 #include <bits/stdc++.h>
 #include "ConsoleApplication1.h"
-
+#include "Util.h"
 using namespace std;
 
-static string ltrim(const string&);
-static string rtrim(const string&);
-static vector<string> split(const string&);
+
 
 // Complete the compareTriplets function below.
 vector<int> compareTriplets(vector<int> a, vector<int> b) {
@@ -45,6 +43,10 @@ int TripletsMain()
 {
 	//ofstream fout(getenv("OUTPUT_PATH"));
 	cout << "[Triplets quiz]" << endl;
+	float fa = 0;
+	fa = 1.f / 3.f;
+	cout << fa << endl;
+	std::cout << std::fixed << std::setprecision(2) << fa << std::endl;
 	string a_temp_temp;
 	getline(cin, a_temp_temp);
 
@@ -90,42 +92,3 @@ int TripletsMain()
 	return 0;
 }
 
-string ltrim(const string& str) {
-	string s(str);
-
-	s.erase(
-		s.begin(),
-		find_if(s.begin(), s.end(), not1(ptr_fun<int, int>(isspace)))
-	);
-
-	return s;
-}
-
-string rtrim(const string& str) {
-	string s(str);
-
-	s.erase(
-		find_if(s.rbegin(), s.rend(), not1(ptr_fun<int, int>(isspace))).base(),
-		s.end()
-	);
-
-	return s;
-}
-
-//split: delimiter로 문자열을 나눔 
-vector<string> split(const string& str) {
-	vector<string> tokens;
-
-	string::size_type start = 0;
-	string::size_type end = 0;
-
-	while ((end = str.find(" ", start)) != string::npos) {
-		tokens.push_back(str.substr(start, end - start));
-
-		start = end + 1;
-	}
-
-	tokens.push_back(str.substr(start));
-
-	return tokens;
-}
