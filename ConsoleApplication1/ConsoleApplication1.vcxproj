@@ -155,12 +155,14 @@
     <ClCompile Include="DiagonalDifference.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mini_Max_Sum.cpp" />
+    <ClCompile Include="SimpleCode.cpp" />
     <ClCompile Include="Triplets.cpp" />
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bits\stdc++.h" />
     <ClInclude Include="ConsoleApplication1.h" />
+    <ClInclude Include="SimpleCode.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
